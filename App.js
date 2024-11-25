@@ -63,6 +63,7 @@ function App() {
 
   return (
     <div className='App'>
+    <h2 style={{textAlign:'center'}}>CRUD App</h2>
       <div style={{ display: 'flex', justifyContent: 'center', marginTop: '10px', marginBottom: '10px' }}>
         <div>
           <label>
@@ -100,6 +101,8 @@ function App() {
 
           <button className='btn btn-danger' onClick={() => handleClear()}>Clear</button>
         </div>
+            </div>
+            <div>
 
         <table className='table table-hover'>
           <thead>
